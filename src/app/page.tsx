@@ -54,8 +54,8 @@ export default function Home() {
         {/* Corrections Log */}
         <section className="mb-12 animate-in" style={{ animationDelay: "0.05s" }}>
           <details>
-            <summary className="cursor-pointer select-none flex items-center gap-2 text-xs text-slate-400 hover:text-slate-600 transition-colors">
-              <svg className="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg>
+            <summary className="cursor-pointer select-none inline-flex items-center gap-2 text-xs text-rose-600 bg-rose-50 hover:bg-rose-100 border border-rose-200 px-3 py-1.5 rounded-full transition-colors">
+              <svg className="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" /></svg>
               <span className="font-semibold uppercase tracking-wide">Corrections &amp; Updates — April 8, 2026</span>
             </summary>
             <div className="mt-3 bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5">
