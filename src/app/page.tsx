@@ -43,12 +43,80 @@ export default function Home() {
               After the third and final agreement set a hard deadline of March 1, 2026, the title company (Co-Op Title, handled by Aaron Schneider) set up everything needed to close — including creating a trust structure with an LLC called Falcon Axos Financial LLC. However, Rutledge never connected the title company with a lender, never executed the trust documents, and never closed.
             </p>
             <p>
-              On March 6, 2026, we formally declared him in default. He then hired a lawyer (Philippe Revah) who filed an opposition. The judge moved the case from county court to circuit court. We expect Rutledge to be out by late April 2026, and we plan to sell the property around May 2026 for approximately $650,000.
+              On March 6, 2026, we formally declared him in default. He then hired a lawyer (Philippe Revah) who filed an opposition. On March 23, Judge Stephens found that the county court lacked jurisdiction — under Florida Statute 83.42(2), the rent payments and 5% deposit ($32,500) placed this outside landlord/tenant law — and ordered the case transferred to circuit court. The case is now pending in circuit court (Case No. 50-2026-CA-003650).
             </p>
             <p>
               All the emails with Aaron at the title company — and with the buyer&apos;s email (SeniorSecured@gmail.com) — are documented below in the timeline and email sections.
             </p>
           </div>
+        </section>
+
+        {/* Corrections Log */}
+        <section className="mb-12 animate-in" style={{ animationDelay: "0.05s" }}>
+          <details>
+            <summary className="cursor-pointer select-none flex items-center gap-2 text-xs text-slate-400 hover:text-slate-600 transition-colors">
+              <svg className="w-3.5 h-3.5 shrink-0" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg>
+              <span className="font-semibold uppercase tracking-wide">Corrections &amp; Updates — April 8, 2026</span>
+            </summary>
+            <div className="mt-3 bg-slate-50 border border-slate-200 rounded-xl p-4 sm:p-5">
+              <table className="w-full text-xs sm:text-sm">
+                <thead>
+                  <tr className="border-b border-slate-200">
+                    <th className="text-left py-2 pr-3 text-slate-500 font-semibold w-1/4">Location</th>
+                    <th className="text-left py-2 pr-3 text-slate-500 font-semibold w-1/3">Was (incorrect)</th>
+                    <th className="text-left py-2 text-slate-500 font-semibold w-1/3">Fixed to</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-100 text-slate-600">
+                  <tr>
+                    <td className="py-2 pr-3 font-medium">1st Stipulation summary</td>
+                    <td className="py-2 pr-3">&quot;Rutledge must purchase the property by a set deadline or vacate&quot;</td>
+                    <td className="py-2">Rutledge agrees to vacate by Nov 30, 2025 (vacate-only; no purchase option)</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 pr-3 font-medium">Current Status date</td>
+                    <td className="py-2 pr-3">March 31, 2026</td>
+                    <td className="py-2">March 23, 2026 (actual date of judge&apos;s order)</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 pr-3 font-medium">Deadline Day date</td>
+                    <td className="py-2 pr-3">Mar 2, 2026</td>
+                    <td className="py-2">Mar 1, 2026 (contractual deadline; fell on a Sunday)</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 pr-3 font-medium">Judge&apos;s order reasoning</td>
+                    <td className="py-2 pr-3">&quot;Orders case transferred to circuit court&quot; (no reason given)</td>
+                    <td className="py-2">County court lacked jurisdiction under FL Statute 83.42(2) — rent + 5% deposit</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 pr-3 font-medium">Plain Language Summary</td>
+                    <td className="py-2 pr-3">Conflated all 3 stipulations as &quot;purchase opportunities&quot;</td>
+                    <td className="py-2">Accurate timeline: vacate Nov 30 → extension Dec 15 → purchase by Mar 1</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 pr-3 font-medium">Case Overview</td>
+                    <td className="py-2 pr-3">&quot;purchase by deadline or vacate&quot;</td>
+                    <td className="py-2">Clarified first stipulation was vacate-only; purchase came in 3rd stipulation</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 pr-3 font-medium">3rd Stipulation detail</td>
+                    <td className="py-2 pr-3">Brief one-line summary</td>
+                    <td className="py-2">Expanded: $650K price, $32.5K credit, $617.5K balance, no contingencies, pre-signed judgment</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 pr-3 font-medium">2nd Stipulation dot color</td>
+                    <td className="py-2 pr-3">Green (payment type)</td>
+                    <td className="py-2">Purple (legal/stipulation type)</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 pr-3 font-medium">Missing View Email buttons</td>
+                    <td className="py-2 pr-3">9 timeline entries referenced emails with no button</td>
+                    <td className="py-2">Added View Email buttons with actual Gmail content</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </details>
         </section>
 
         {/* Case Overview — consolidated */}
