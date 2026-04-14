@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://litigation.sadeventure.com"),
   title: "Rutledge Case — Litigation Summary",
   description:
-    "Complete litigation summary for the Rutledge case. Timeline, court docket, documents, and email archive — prepared for Michael Foster.",
+    "Complete litigation summary for the Rutledge case. Timeline, court docket, documents, and email archive — prepared for Jason Gordon, Esq.",
   openGraph: {
     title: "Rutledge Case Summary",
     description:
