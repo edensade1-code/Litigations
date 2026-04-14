@@ -15,7 +15,7 @@ const USERS: User[] = [
     email: "jg@jgordonlegal.com",
     password: "Gordon2026!",
     role: "gordon",
-    homePath: "/jason",
+    homePath: "/jason/rutledge",
   },
   {
     email: "michael@youngfoster.com",

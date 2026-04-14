@@ -5,7 +5,7 @@ export default async function Home() {
   const role = await getRole();
 
   if (role === "gordon") {
-    redirect("/jason");
+    redirect("/jason/rutledge");
   } else if (role === "foster") {
     redirect("/Foster");
   } else {

@@ -19,7 +19,7 @@ export function proxy(request: NextRequest) {
 
   // Gordon can only access /jason routes
   if (role === "gordon" && !path.startsWith("/jason")) {
-    return NextResponse.redirect(new URL("/jason", request.url));
+    return NextResponse.redirect(new URL("/jason/rutledge", request.url));
   }
 
   return NextResponse.next();
