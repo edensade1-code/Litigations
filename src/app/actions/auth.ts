@@ -23,6 +23,12 @@ const USERS: User[] = [
     role: "foster",
     homePath: "/Foster",
   },
+  {
+    email: "edensade1@gmail.com",
+    password: "Eden2468!",
+    role: "admin",
+    homePath: "/Foster",
+  },
 ];
 
 const COOKIE_NAME = "litigation_session";
