@@ -16,11 +16,31 @@ export default function FosterPage() {
         </p>
       </div>
 
+      <Link
+        href="/Foster/balances"
+        className="block bg-accent text-white rounded-lg p-6 mb-8 hover:opacity-90 transition-opacity"
+      >
+        <div className="flex items-center justify-between flex-wrap gap-3">
+          <div>
+            <h2 className="text-lg font-semibold">Balances &amp; Payments</h2>
+            <p className="text-sm opacity-80 mt-1">
+              Billed, paid &amp; outstanding totals across all cases &rarr;
+            </p>
+          </div>
+          <div className="text-right">
+            <div className="text-xs opacity-70 uppercase tracking-wide">
+              Outstanding
+            </div>
+            <div className="text-2xl font-bold">$46,054.90</div>
+          </div>
+        </div>
+      </Link>
+
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {cases.map((c) => (
           <Link
             key={c.slug}
-            href={`/Foster/${c.slug}`}
+            href={"/Foster/" + c.slug}
             className="block bg-card-bg border border-border rounded-lg p-6 hover:shadow-lg transition-shadow"
           >
             <h2 className="text-lg font-semibold text-accent mb-2">
