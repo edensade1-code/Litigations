@@ -8,8 +8,7 @@ export function proxy(request: NextRequest) {
   const path = request.nextUrl.pathname;
 
   // No session → login
-  if (!role || !["gordon", "foster"].includes(role)) {
-    return NextResponse.redirect(new URL("/login", request.url));
+  if (!role || !["gordon", "foster", "admin"].includes(role)) {    return NextResponse.redirect(new URL("/login", request.url));
   }
 
   // Foster can only access /Foster routes
